@@ -1,5 +1,6 @@
 # Write your code here.
 katz_deli=[]
+
 def line(array)
   length=array.size
   case length
@@ -11,4 +12,9 @@ def line(array)
       result<<"#{ind+1}. #{name}"
     return result
   end
+end
+
+def take_a_number(array,name)
+  array.push(name)
+  return "Welcome #{name}. You are number #{array.index(name)+1} in line."
 end
