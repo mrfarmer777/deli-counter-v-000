@@ -20,7 +20,10 @@ def take_a_number(array,name)
 end
 
 def now_serving(array)
-  return "Currently serving #{array.unshift}."
+  if array.size>0
+    return "Currently serving #{array.unshift}."
+  else
+    return "The line is currently empty."
 end
 
-def 
+def
