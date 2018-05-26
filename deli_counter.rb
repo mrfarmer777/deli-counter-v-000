@@ -19,7 +19,7 @@ def take_a_number(array,name)
 end
 
 def now_serving(array)
-  if array.size>0    
+  if array.size>0
     puts "Currently serving #{array.shift}."
   else
     puts "There is nobody waitint to be served!."
