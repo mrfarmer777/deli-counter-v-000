@@ -20,5 +20,7 @@ def take_a_number(array,name)
 end
 
 def now_serving(array)
-  return "Currently serving #{array.unshift}.""
+  return "Currently serving #{array.unshift}."
 end
+
+def 
