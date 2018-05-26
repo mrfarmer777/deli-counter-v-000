@@ -10,3 +10,5 @@ def line(array)
     array.each_with_index do |name,ind|
       result<<"#{ind+1}. #{name}"
     return result
+  end
+end
