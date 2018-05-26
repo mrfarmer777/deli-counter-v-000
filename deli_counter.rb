@@ -2,14 +2,13 @@
 katz_deli=[]
 
 def line(array)
-  length=array.size
-  case length
-  when 0
+  if array.length==0
     return "The line is currently empty."
   else
     result = "The line is currently: "
     array.each_with_index do |name,ind|
       result<<"#{ind+1}. #{name}"
+    end
     return result
   end
 end
@@ -22,7 +21,7 @@ end
 def now_serving(array)
   if array.size>0
     return "Currently serving #{array.unshift}."
-  else 
+  else
     return "The line is currently empty."
   end
 end
