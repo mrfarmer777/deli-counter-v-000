@@ -22,8 +22,7 @@ end
 def now_serving(array)
   if array.size>0
     return "Currently serving #{array.unshift}."
-  else
+  else 
     return "The line is currently empty."
   end
 end
-
