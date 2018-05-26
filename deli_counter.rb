@@ -26,4 +26,3 @@ def now_serving(array)
     return "The line is currently empty."
 end
 
-def
